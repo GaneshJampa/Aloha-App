@@ -1,34 +1,30 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Aloha App - Kimo task 🤞
 
-## Getting Started
+Deployed url - [Aloha App](https://aloha-app.vercel.app/)
 
-First, run the development server:
+Implemented pixel perfect responsive user interface according to the design.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+Implemented desired functionality/features [dropdown, menu, buttons].
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Implemented API services to handle API calls.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Light house score - ![image](https://github.com/GaneshJampa/Aloha-App/assets/91380384/eab68bf1-0723-4a73-9fbe-6369257cc1d5)
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## Learn More
+Screenshots for reference -
 
-To learn more about Next.js, take a look at the following resources:
+1 /
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+  - Desktop
+   - ![aloha-app vercel app_](https://github.com/GaneshJampa/Aloha-App/assets/91380384/858a40cd-fcd9-497b-9847-3328d643a98e)
+    
+  - Mobile 
+    - ![aloha-app vercel app_ mobile](https://github.com/GaneshJampa/Aloha-App/assets/91380384/6f80d409-a55f-4150-8f70-e09d200254c8)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+2 /activities/{activity}
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+  - Desktop
+    - ![aloha-app vercel app_activities_Surfing](https://github.com/GaneshJampa/Aloha-App/assets/91380384/f9786ce3-62f4-4e10-b816-d35312a8477b)
+    
+  - Mobile
+    - ![aloha-app vercel app_activities_Surfing_mobile](https://github.com/GaneshJampa/Aloha-App/assets/91380384/91354f38-073e-433f-ae56-5b43569edf89)
