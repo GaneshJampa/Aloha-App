@@ -7,7 +7,7 @@ const Hero = () => {
     return (
         <div className="relative">
             <img src={bannerSource}
-                className="absolute lg:top-0 object-cover w-full h-full" alt="banner" />
+                className="absolute lg:top-0 object-cover w-full h-full" alt="Welcome to Hawaii" />
             <div className="relative">
                 <div className="lg:py-[9.25rem] py-[12rem] mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl">
                     <div className="flex flex-row justify-center">

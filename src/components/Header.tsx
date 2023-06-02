@@ -1,5 +1,4 @@
 "use client";
-
 import React from 'react';
 import { Highlight } from "@/types/types";
 import Link from "next/link";
@@ -17,13 +16,13 @@ const Header:React.FC<{highlights: Highlight[]}> = ({ highlights }) => {
                 <div className="px-6 py-6 mx-auto md:max-w-full lg:w-[71rem] lg:px-6 lg:py-5 bg-white lg:rounded-xl">
                     <div className="relative flex items-center justify-between">
                         <div className="flex items-center">
-                            <Link href="/">
+                            <Link href="/" title="Home" >
                                 <img src={logo} alt='logo' className="inline-flex items-center mr-20" />
                             </Link>
                             <ul className="flex items-center hidden space-x-10 lg:flex">
                                 <li>
-                                    <Link href="/">
-                                        <div title="Home " className="font-medium tracking-wide text-[#001A1A] transition-colors duration-200 hover:text-gray">Home</div>
+                                    <Link href="/" title="Home">
+                                        <div className="font-medium tracking-wide text-[#001A1A] transition-colors duration-200 hover:text-gray">Home</div>
                                     </Link>
                                 </li>
                                 {
@@ -78,13 +77,13 @@ const Header:React.FC<{highlights: Highlight[]}> = ({ highlights }) => {
                     <nav>
                         <ul className="space-y-6 py-10">
                             <li>
-                                <Link href="/">
-                                    <div title="Home " className="font-medium tracking-wide text-[#001A1A] transition-colors duration-200 hover:text-gray">Home</div>
+                                <Link href="/" title="Home">
+                                    <div className="font-medium tracking-wide text-[#001A1A] transition-colors duration-200 hover:text-gray">Home</div>
                                 </Link>
                             </li>
                             {
                                 highlights.map(highlight =>
-                                    <li>
+                                    <li key={highlight.title}>
                                         <Link href={`/activities/${highlight.title}`} title={highlight.title} >
                                             <div className="font-medium tracking-wide text-[#001A1A] transition-colors duration-200 hover:text-gray">{highlight.title}</div>
                                         </Link>
@@ -92,10 +91,9 @@ const Header:React.FC<{highlights: Highlight[]}> = ({ highlights }) => {
                                 )
                             }
                             <li>
-                                <Link href="/">
+                                <Link href="/" title="Book a trip">
                                     <div
                                         className="inline-flex font-sans items-center justify-center h-10 px-6 font-bold text-white hover:text-[#008080] transition duration-200 rounded-lg bg-[#008080] hover:bg-white hover:border-[0.1rem] border-[#008080]"
-                                        title="Book a trip"
                                     >
                                         Book a trip
                                     </div>

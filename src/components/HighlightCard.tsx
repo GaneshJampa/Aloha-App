@@ -2,7 +2,7 @@ import React from "react";
 import { Highlight } from "@/types/types";
 import Link from "next/link";
 
-const HighlightCard:React.FC<{highlight: Highlight; index: string;}> = ({ highlight, index }) => {
+const HighlightCard:React.FC<{highlight: Highlight, index: string}> = ({ highlight, index }) => {
 
     return (
 
@@ -16,7 +16,7 @@ const HighlightCard:React.FC<{highlight: Highlight; index: string;}> = ({ highli
                         {highlight.description}
                     </p>
                     <div className="flex justify-end">
-                        <button>
+                        <button title={highlight.title}>
                             <svg className={`${index == '1' ? "-mt-6" : ""} lg:mt-0 w-10 p-3 bg-[#E6F2F2] rounded-full text-[#008080] hover:bg-[#008080] hover:text-white transition ease-in-out duration-200`} viewBox="0 0 16 16" fill="none">
                                 <path d="M8 16L6.575 14.6L12.175 9H0V7H12.175L6.575 1.4L8 0L16 8L8 16Z" fill="currentColor" />
                             </svg>

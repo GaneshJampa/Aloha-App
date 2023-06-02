@@ -18,17 +18,18 @@ const Guide = () => {
                         <p className="mb-1 font-bold text-2xl text-[#001A1A]">Hadwin Malone</p>
                         <p className="text-base text-[#001A1A]">Guide since 2012</p>
                     </div>
-                    <Link href="/">
-                        <div
-                            className="inline-flex font-sans items-center justify-center h-10 px-6 font-bold hover:text-white text-[#008080] transition duration-200 rounded-lg hover:bg-[#008080] bg-white hover:border-0 border-[0.1rem] border-[#008080]"
-                            title="Contact"
-                        >
-                            Contact
-                        </div>
-                    </Link>
+                    <div>
+                        <Link href="/" title="Contact">
+                            <div
+                                className="inline-flex font-sans items-center justify-center h-10 px-6 font-bold hover:text-white text-[#008080] transition duration-200 rounded-lg hover:bg-[#008080] bg-white hover:border-0 border-[0.1rem] border-[#008080]"
+                            >
+                                Contact
+                            </div>
+                        </Link>
+                    </div>
                 </div>
                 <div className="rounded-full">
-                    <img src={guideImg} alt="guide" className="sm:w-full w-16"/>
+                    <img src={guideImg} alt="guide" className="sm:w-full w-16" />
                 </div>
             </div>
         </div>

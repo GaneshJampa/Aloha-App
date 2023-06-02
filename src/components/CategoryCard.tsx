@@ -11,7 +11,7 @@ const CategoryCard:React.FC<{category: Category}> = ({ category }) => {
         <div className="py-4 px-6 bg-white rounded-lg">
             <div className="flex flex-row items-center justify-between mb-2">
                 <p className="text-[#001A1A]">{category.name}</p>
-                <button onClick={() => setOpen(!open)}>
+                <button title="dropdown" onClick={() => setOpen(!open)}>
                     <svg className={`w-10 p-3 rounded-full text-[#008080] hover:bg-[#E6F2F2] transition ease-in-out duration-200 ${open && "rotate-90"}`} viewBox="0 0 16 16" fill="none">
                         <path d="M8 16L6.575 14.6L12.175 9H0V7H12.175L6.575 1.4L8 0L16 8L8 16Z" fill="currentColor" />
                     </svg>
