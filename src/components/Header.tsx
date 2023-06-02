@@ -60,9 +60,8 @@ const Header:React.FC<{highlights: Highlight[]}> = ({ highlights }) => {
                     </div>
                 </div>
             </div>
-            <div hidden={!open} className="absolute top-0 z-[10000] w-[100%] h-[100%] lg:hidden">
-                <div className="absolute z-[10000] w-[10%] h-[100%] lg:hidden bg-black/50"></div>
-                <div className="p-8 absolute z-[10000] w-[90%] h-[100%] left-[10%] lg:hidden bg-white">
+            <div hidden={!open} className="fixed top-0 z-[10000] w-[100%] h-[100%] lg:hidden bg-black/80">
+                <div className="p-8 absolute z-[10000] w-[94%] h-[100%] left-[6%] lg:hidden bg-white">
                     <div className="flex items-center justify-between mb-4">
                         <div>
                         </div>
