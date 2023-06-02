@@ -6,7 +6,7 @@ Implemented pixel-perfect UI with proper stylling, functionality, accesibilty. H
 
 ## Lighthouse Score
 
-The Lighthouse score for the Aloha App is as follows:
+The Lighthouse score for the Aloha App:
 
 ![Lighthouse Score](https://github.com/GaneshJampa/Aloha-App/assets/91380384/eab68bf1-0723-4a73-9fbe-6369257cc1d5)
 
@@ -32,4 +32,3 @@ The Lighthouse score for the Aloha App is as follows:
 
 ![Mobile Screenshot](https://github.com/GaneshJampa/Aloha-App/assets/91380384/91354f38-073e-433f-ae56-5b43569edf89)
 
-Feel free to refer to these screenshots for a visual representation of the Aloha App.
